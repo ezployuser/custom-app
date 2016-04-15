@@ -1,0 +1,11 @@
+{
+  "name": "EzPloy",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node node_modules/forever/bin/forever --minUptime 1000 --spinSleepTime 1000 -c \"node --harmony\" ./dist/server.js",
+    "stop": "webpack --colors --display-error-details --config webpack.server.js",
+  },
+  "dependencies": {
+    "axios": "^0.9.1",
+  }
+}
