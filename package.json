@@ -6,6 +6,6 @@
     "stop": "webpack --colors --display-error-details --config webpack.server.js"
   },
   "dependencies": {
-    "axios": "^0.9.1",
+    "axios": "^0.9.1"
   }
 }
